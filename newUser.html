@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Create Account</title>
+</head>
+<body>
+    <div class="new-account">
+        <form action="" id="new-user-form">
+            <input type="text" name="uname" id="uname" placeholder="Username">
+            <input type="password" name="pass" id="pass" placeholder="Password">
+            <span id="span-btns">
+                <input type="button" value="Login old account" onclick="location.href='./index.html';" class="submit" id="subBtn">
+
+                <input type="submit" value="Submit" onclick="saveUserData(event);" class="submit" id="subBtn">
+            </span>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

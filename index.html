@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Account</title>
+</head>
+
+<body>
+    <div>
+        <form action="" id="auth-form">
+            <input type="text" name="uname" id="uname" placeholder=" Username" required>
+
+            <input type="password" name="pass" id="pass" placeholder=" Password" required>
+
+            <span id="span-btns">
+                <!-- ensure the input type for New User is a button not an submit -->
+                <!-- redirect on same tab -->
+                <input type="button" value="New User" onclick="location.href='./newUser.html'"; id="subBtn" class="new-user"> 
+                <!-- redirect on new tab -->
+                <!-- <input type="button" value="New User" onclick="window.open('./newUser.html');" id="subBtn" class="new-user"> -->
+
+                <input type="button" value="Login" onclick="checkUser()" id="subBtn" class="login">
+            </span>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

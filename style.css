@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    min-height: 50vh;
+    /* min-width: 300px; */
+    min-width: 30rem;
+}
+
+#auth-form, #new-user-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#span-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5rem;
+}
+
+div {
+    padding: 1rem;
+}
+
+div form input {
+    width: 15rem;
+    height: 2rem;
+}
+
+input {
+    transition-duration: 200ms;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+input:hover {
+    box-shadow: 2px 2px gray;
+    border: 2px solid rgb(28, 27, 27);
+}
+
+#subBtn {
+    width: max-content;
+    padding: 5px;
+}
